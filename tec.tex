@@ -2,8 +2,8 @@ pwd
 show cuurrnt diractly
 
 git   
-git clone (URL_NAME) -> git clone https://github.com/techaddtion-lang/add_git.git
-cd add_git
+git clone (URL_NAME) -> git clone https://github.com/techaddtion-lang/my_app.git
+go to this folder -> cd my_app
 create some file or folder
 save or add-> git add (file_name)/ git add .(for all)
 cheak status -> git status
@@ -23,7 +23,7 @@ connection betn local and git hub
 git remote add origin https://github.com/papusahoo123/project2.git
 git remote-v
 git branch 
-git push -u origin main or git push -u origin main --force   
+git push -u origin main (or) git push -u origin main --force   
 
 
 // for shot-cut push in git hub
@@ -32,8 +32,15 @@ git commit -am "added in shot-cut"(add and commit at time)
 git push 
 
 
+
+
 // branch commands
 git branch -M main
-git cheakout <-branch name-> (to navigate)
-git cheakout -b <-new branch name -> (to create new branch)
-git cheakout -d <- branch name -> (to delete  branch)
+git  checkout  <-branch name-> (to navigate)
+git  checkout-b <-new branch name -> (to create new branch)
+git branch  -d <- branch name -> (to delete  branch)
+
+//push new branch in git hub ->(feature)
+go to this  branch and push -> push --set-upstream origin feature
+git diff main
+merge two branch -> git merge main
